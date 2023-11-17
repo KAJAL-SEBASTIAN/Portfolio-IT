@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Montserrat+Alternates:wght@100&family=Orbitron&family=Prompt:ital@1&family=Qwigley&family=Suez+One&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(82, 148, 148);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(91, 98, 104);
+    text-shadow:2px 4px 8px rgb(248, 249, 250);
+}
+
+video{
+    width: 100%;
+    height: 710px;
+  margin-top: 0;
+}
+.overlay{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    color: rgb(66, 185, 194);
+    text-shadow: 3px 4px 6px rgb(88, 211, 201);
+  
+}
+#home{
+
+    height: 0px;
+}
+
+.main{
+    position: absolute;
+    border: 2px ridge rgb(15, 15, 14);
+    padding: 70px;
+    top: 1000px;
+    left: 10%;
+    box-shadow: 3px 4px 6px rgb(12, 12, 11);
+    z-index: -1;
+    
+}
+
+
+h2{
+    text-align: center;
+}
+.pic img{
+    width: 450px;
+    height: 300px;
+ 
+}
+.pic{
+    display: flex;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+    color: rgb(24, 146, 146);
+   
+}
+.box{
+    width: 800px;
+    height: 250px;
+    margin: 15px;
+    margin-left: 75px;
+    border:2px ridge black ;
+    transition:width 2s,height 2s;
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+ .box:hover{
+    width:850px ;
+    height:230px ;
+     border: none;
+     box-shadow: 2px 4px 5px 6px black;
+     background-position: left bottom;
+ }
+
+    ul{
+    color:rgb(255, 255, 255);
+ }
+ .box1{ 
+    width: 700px;
+    height: 540px;
+    margin: 10px;
+    border:2px ridge rgb(33, 140, 167) ;
+    background-size: 100% 200%;
+    
+ } 
+p{
+    color: rgb(27, 138, 163);
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    
+}
+.pic1 img{
+    width: 350px;
+    height: 250px;
+    margin-left: 150px;
+    border-radius: 20px;
+    transition:width 2s,height 2s;
+    background-size: 100% 200%;
+    transition: all 0.8s;
+    border: 2px ridge rgb(124, 218, 210);
+    
+}
+.pic1 img:hover{
+    width: 450px;
+    height: 300px;
+    border: 2px ridge rgb(28, 161, 168);
+    border-radius: 40px; 
+}
+.pic2 img{
+    width: 350px;
+    height: 250px;
+    margin-left: 200px;
+    border-radius: 20px;
+    transition:width 2s,height 2s;
+    background-size: 100% 200%;
+    transition: all 0.8s;
+    border: 2px ridge rgb(124, 218, 210);
+    
+}
+.pic2 img:hover{
+    width: 450px;
+    height: 300px;
+    border: 2px ridge rgb(28, 161, 168);
+    border-radius: 40px; 
+}
+
+#para{
+    border: 4px solid rgb(19, 82, 94);
+    padding: 15px;
+    margin: 25px;
+}
+#achivements{
+border-radius:70px;
+}
+
+
+#awd{
+    width: 380px;
+    height: 350px;
+    margin-top: 0;
+}
+#education{
+    padding: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    background-color: rgb(43, 97, 97);
+    color: black;
+}
+
+
+@media screen and (max-width:400px){
+
+    *{
+        font-family: 'Prompt', sans-serif;
+    }
+
+    nav{
+        background-color: rgb(82, 148, 148);
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+                
+    }
+    
+    nav ul{
+        display: flex;
+      flex-direction: row;
+    }
+    
+    nav ul li a{
+        display: flex;
+        margin: 0px;
+        text-decoration: none;
+        color: black;
+        padding: 1.5px;
+           
+        
+    }
+
+    video{
+        width: 100%;
+        height: 210px;
+    }
+   
+    .overlay{
+        position: absolute;
+      top: 190px;
+     font-size: 10px;
+        color: rgb(66, 185, 194);
+        text-shadow: 3px 4px 6px rgb(88, 211, 201);
+      
+    }
+    
+.main{
+    position: absolute;
+    border: 2px ridge rgb(15, 15, 14);
+    padding: 0px;
+   
+    left: 10%;
+    box-shadow: 3px 4px 6px rgb(12, 12, 11);
+    z-index: -1;
+    
+}
+.pic img{
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+ 
+}
+.pic{
+    display: flex;
+ flex-direction: column;
+}
+.pic p{
+    text-align: justify;
+
+    color: rgb(24, 146, 146);
+   
+}
+.box{
+    width: 345px;
+    height: 625px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border:2px ridge black ;
+    transition:width 2s,height 2s;
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+
+.box:hover{
+    width:360px ;
+    height:550px ;
+     border: none;
+     box-shadow: 2px 4px 5px 6px black;
+     background-position: left bottom;
+ }
+ .row{
+    display: flex;
+    flex-direction: column;
+}
+ .pic2 img{
+    width: 280px;
+    height: 250px;
+    margin: 60px;
+    border-radius: 20px;
+    transition:width 2s,height 2s;
+    background-size: 100% 200%;
+    transition: all 0.8s;
+    border: 2px ridge rgb(54, 129, 123);
+    
+}
+.pic2 img:hover{
+    width: 320px;
+    height: 320px;
+    border: 2px ridge rgb(28, 161, 168);
+    border-radius: 40px; 
+}
+.pic1 img{
+    width: 280px;
+    height: 250px;
+    margin: 60px;
+    border-radius: 20px;
+    transition:width 2s,height 2s;
+    background-size: 100% 200%;
+    transition: all 0.8s;
+    border: 2px ridge rgb(124, 218, 210);
+    
+}
+.pic1 img:hover{
+    width: 320px;
+    height: 320px;
+    border: 2px ridge rgb(28, 161, 168);
+    border-radius: 40px; 
+}
+h2{
+    margin: 10px;
+}
+#achivements{
+    border-radius:70px;
+    
+    }
+    
+    #achivements img{
+      width: 400px;
+        
+        }
+ 
+
+}
